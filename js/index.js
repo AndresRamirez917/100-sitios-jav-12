@@ -48,7 +48,7 @@ const validar = (e) => {
             if(arr[i].value == ""){
                 swal({
                     title: `El campo ${messageArr[i]} no puede estar vacío`,
-                    icon: "error",
+                    icon: "warning",
                  })
                  return false;
             }
@@ -56,7 +56,7 @@ const validar = (e) => {
         if(!emailvalido(email.value)){
             swal({
                 title: `El formato del ${messageArr[1]} no es correcto`,
-                icon: "error",
+                icon: "warning",
              })
              return false;
         }
@@ -66,17 +66,6 @@ const validar = (e) => {
     mensaje.value = "";
     return true;
 
-}
-
-const mensaje  = ()=>{
-    Swal.fire({
-        icon: "info",
-        title: "Atención...",
-        text: "Será redirigido a Google Maps",
-        showConfirmButton: false,
-        timer: 3000,
-      }); 
-      window.location.href = mensaje  
 }
 
 const emailvalido = email => {
