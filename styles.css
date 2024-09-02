@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+a {
+   
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1300px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* form */
+
+/* form label display: inline-block;  y form form-control display: block; 
+estilizan el formulario  */
+
+form label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+form .form-control {
+    display: block;
+    width: 100%;
+    padding: 7px 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ededed;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+  }
+
+  form .form-group {
+    margin-bottom: 16px;
+  }
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding:12px 23px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-light {
+    background: #F5B637;
+    color: #FFF;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  #navbar {
+    background: #0A0B45;
+  }
+
+#navbar .logo {
+    float: left;
+    padding-top:16px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: white;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    /* pone la lista horizontal */
+    display: block;
+    padding: 20px;
+    text-align: center;
+    /* no se usa float */
+    color: white;
+}
+
+#showcase {
+    background: linear-gradient(to right, #E000ea, #3b00ee);
+}
+
+.showcase-title {
+    float: left;
+padding-right: 10px;
+width: 50%;
+}
+
+.display-1 {
+    color: white;
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 40px 0 20px 0;
+}
+
+.showcase-title p {
+    padding: 20px 0;
+    color: white;
+  }
+
+  .showcase-img {
+    float: right;
+    width: 50%;
+    padding: 30px;
+  }
+
+  /* ubico la imagen correctamente al lado derecho de la pagina
+  sin .showcase-img img la imagen se pone debajo del texto no al lado */
+  .showcase-img img {
+    width: 100%;
+  }
+
+  span {
+    color: #F5B637;
+    font-weight: bold;
+  }
+
+  /* features */
+  .card {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #features h2 {
+    text-align: center;
+    padding: 50px;
+  }
+
+  /* client */
+
+  #client h2 {
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+
+  #client {
+    background: #0A0B45;
+    color: white;
+    text-align: center;
+  }
+
+  #client h3 {
+    color: yellow !important;
+    padding: 30px;
+  }
+
+  /* contact */
+
+  #contact h2 {
+    padding: 50px;
+    text-align: center;
+  }
+
+  form .form-control {
+    background: #b09af1;
+  }
+
+  #contact form {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  form button {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* footer */
+  #footer {
+    background: linear-gradient(to left, #E000ea, #3b00ee);
+    padding: 30px;
+    text-align: center;
+  }
+
+  
