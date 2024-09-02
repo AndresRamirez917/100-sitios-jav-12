@@ -149,6 +149,15 @@ width: 50%;
     margin-bottom: 30px;
   }
 
+  .card p {
+    text-align: justify;
+  }
+
+  .features-card .card img {
+    width: 50%;
+    height: 30vh;
+  }
+
   #features h2 {
     text-align: center;
     padding: 50px;
